@@ -1,6 +1,1 @@
-FE
-cd client
-npm run dev
-
-BE
-node backend/index.js
+make run start
