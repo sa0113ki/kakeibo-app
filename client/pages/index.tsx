@@ -147,6 +147,11 @@ export default function Home() {
                     <p className="font-semibold">
                       差額: ¥{balance.toLocaleString()}
                     </p>
+                    {balance < 0 ? (
+                      <p className="text-red-500">節約しましょう</p>
+                    ) : (
+                      <p>貯金できててえらい</p>
+                    )}
                   </div>
                 </div>
               </div>
